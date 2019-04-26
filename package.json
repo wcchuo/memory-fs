@@ -1,0 +1,25 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "NodeJS fs in-memory example.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "express": "^4.16.4",
+    "extract-zip": "^1.6.7",
+    "memory-fs": "^0.4.1",
+    "serve-index": "^1.9.1",
+    "unzip": "^0.1.11"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://10.145.216.140/chuowc/memory-fs.git"
+  },
+  "keywords": []
+}
