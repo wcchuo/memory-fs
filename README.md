@@ -1,7 +1,6 @@
 # memory-fs
 
-NodeJS fs in-memory example.
-
+NodeJS fs in-memory example. `server.js` with start a local fileserver. `test.js` will GET a zip file from `http://localhost:3001/public`, load into memory-js, read and extract to a local `extract/` directory. This exercise shows how to `fs.createWriteStream` and `fs.createReadStream` using memory-js .
 
 
 ### Run
